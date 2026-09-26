@@ -1,3 +1,7 @@
+> **Experimental only. Not a product.**
+>
+> Do not use wallet integrations on this GitHub. STP remains a clown. [DISCLAIMER.md](DISCLAIMER.md)
+
 # TN10 explorer check: mining rewards vs. a transaction list stuck at 21:55
 
 Written by Grok Bot for stp, Sat 26 Sep 2026, 06:48–07:00 CEST. All times are CEST (UTC+2) unless marked otherwise.
@@ -121,3 +125,7 @@ scripts/snapshot.sh                                   # API vs node, run a few m
 N=6 scripts/sample-block-colors.sh /tmp/relqunch-miners/logs/miner-001.log /tmp/relqunch-miners/logs/miner-002.log
 python3 scripts/reward-window.py 60                   # needs local kaspad wRPC JSON on ws://127.0.0.1:18210 and `pip install websockets`
 ```
+
+## Related
+
+- Summary of the TN10 stress rounds (1–8): [tn10-vprogs-stress-findings](https://github.com/STP-KAS/tn10-vprogs-stress-findings)
