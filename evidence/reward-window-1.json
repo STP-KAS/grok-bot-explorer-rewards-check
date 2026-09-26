@@ -1,0 +1,13 @@
+{
+ "window_wall_s": 20.1,
+ "chain_blocks_added": 50,
+ "chain_blocks_removed": 0,
+ "chain_block_time_first": "06:51:28",
+ "chain_block_time_last": "06:51:47",
+ "balance_before": 759513.72981416,
+ "balance_after": 759978.76208024,
+ "balance_delta_tkas": 465.03226608,
+ "coinbase_outputs_to_us": 57,
+ "coinbase_paid_to_us_tkas": 465.03226608,
+ "unexplained_tkas": 0.0
+}

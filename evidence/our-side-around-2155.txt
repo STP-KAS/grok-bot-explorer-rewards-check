@@ -1,0 +1,32 @@
+# excerpt: logs/monitor.jsonl (n0 local node, 1/min) 21:50-21:59 CEST 25 Sep
+21:50:06 n0 synced= True mempool= 86771 pid= 3992792 sink_age_s= 0.6
+21:51:06 n0 synced= True mempool= 70658 pid= 3992792 sink_age_s= 0.5
+21:52:06 n0 synced= True mempool= 74008 pid= 3992792 sink_age_s= 0.6
+21:53:06 n0 synced= True mempool= 53474 pid= 3992792 sink_age_s= 0.2
+21:54:06 n0 synced= True mempool= 69672 pid= 3992792 sink_age_s= 0.4
+21:55:06 n0 synced= True mempool= 46910 pid= 3992792 sink_age_s= 0.2
+21:56:06 n0 synced= True mempool= 72349 pid= 3992792 sink_age_s= 0.4
+21:57:07 n0 synced= True mempool= 92176 pid= 3992792 sink_age_s= 0.1
+21:58:07 n0 synced= True mempool= 58610 pid= 3992792 sink_age_s= 0.4
+21:59:07 n0 synced= True mempool= 94627 pid= 3992792 sink_age_s= 0.2
+
+# excerpt: logs/tps12h/nettps.jsonl (network TPS seen by n0, first sample of each minute)
+21:50:06 net_tps= 5597.4 blocks/10s= 73
+21:51:06 net_tps= 6618.8 blocks/10s= 86
+21:52:06 net_tps= 7254.3 blocks/10s= 88
+21:53:06 net_tps= 7480.7 blocks/10s= 93
+21:54:06 net_tps= 5472.5 blocks/10s= 67
+21:55:06 net_tps= 6895.7 blocks/10s= 87
+21:56:06 net_tps= 5217.6 blocks/10s= 67
+21:57:06 net_tps= 6744.1 blocks/10s= 81
+21:58:06 net_tps= 4455.0 blocks/10s= 80
+21:59:06 net_tps= 6323.9 blocks/10s= 98
+
+# excerpt: logs/storm/ramp.log
+2026-09-25T21:45:18+0200 PHASE1-START full-throttle overload 30min (limits file absent => RMAX=30000, FULL=1 taper 45k-68k, gate 78k/55k); probes overload-probe.mjs tiers 1,2,5,10,100,1000x min feerat
+2026-09-25T21:46:47+0200 PHASE1-RESTART probes re-seeded from public API (old state UTXOs were spent); 30min P1 window counts from here
+2026-09-25T21:47:09+0200 PHASE1-START(clean) single probe pid 4142122 ; P1 30min window starts now
+2026-09-25T21:48:41+0200 PHASE1-START(final) probe pid 4146646 tiers 1,1.2,2,5,10,100 x MINRATE 100 sompi/g (storm pays 1.2x=120). P1 30min window starts now
+2026-09-25T22:11:32+0200 NOTE plan: P1 overload extended to 23:00; budget ok (~666k TKAS in pools, ~13 TKAS/min burn)
+2026-09-25T22:16:25+0200 SCALEUP-1 /tmp/tps-storm.limits='40000 60000 72000 60000' (RATE_MAX 30000->60000; format LOW HIGH PANIC RATE_MAX; FULL taper 45k-68k + gate 78k/55k unchanged). before: net_tps
+2026-09-25T22:19:50+0200 MARK P1 first 30min done (21:48:41-22:18:41): net 6289 TPS avg, mp max 99967, fee 2402 TKAS/10min; interim written findings/overload-interim-2215.md

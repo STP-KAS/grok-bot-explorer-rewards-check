@@ -1,0 +1,2 @@
+GET https://api-tn10.kaspa.org/transactions/79a2ebda7d3f3948ef8319b25a10a1c6c8f6243357b8ba2aaad618b98680197b  (2026-09-26 06:56:54 CEST)
+{"detail":"Transaction not found"} HTTP 404

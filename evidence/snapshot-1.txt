@@ -1,0 +1,9 @@
+== 2026-09-26 06:52:54 CEST
+api balance (kaspad utxoindex): 761458.16416406
+api transactions-count (indexer DB): {"total":913840}
+api newest indexed tx: 2a915694924fadc2a93f682dd0c8edc3f792e18f2e9b7d440a2d2ae6f972ab4c block_time 2026-09-25 21:55:38.262000 accepting_blue_score 568828507
+api virtual-chain-blue-score (kaspad): {"blueScore":569155245}
+api /info/health: {"kaspadServers":[{"kaspadHost":"wrpc","serverVersion":"2.0.1","isUtxoIndexed":true,"isSynced":true,"p2pId":"965d43fea52bf52915bfee424a155282f40fba60316d97a6c5c07276d094a3d3","blueScore":568825293}],"database":{"isSynced":true,"blueScore":568825255,"blueScoreDiff":25,"acceptedTxBlockTime":1790365505207,"acceptedTxBlockTimeDiff":227}}
+node: local daa 580671800 tips 1
+node: peers 6
+node: local balance 761615.55747906

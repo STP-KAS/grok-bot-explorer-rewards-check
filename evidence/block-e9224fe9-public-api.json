@@ -1,0 +1,15 @@
+{
+ "hash": "e9224fe9ede5dc004f74a5f87d47502e6908dcaeacc00428fdc139f6f19b2846",
+ "timestamp_ms": "1790398196343",
+ "blueScore": "569154114",
+ "isChainBlock": true,
+ "extra": {
+  "color": "blue",
+  "minerAddress": "kaspatest:qzffl5xy9np46gkttyuftqnv2w04pr8g3wsp7c3vv8se3txtelx6q7c0v0ldx",
+  "minerInfo": "2.1.0/0.2.7/gb001"
+ },
+ "coinbase_txid": "79a2ebda7d3f3948ef8319b25a10a1c6c8f6243357b8ba2aaad618b98680197b",
+ "coinbase_outputs_to_us": [
+  868356064
+ ]
+}
